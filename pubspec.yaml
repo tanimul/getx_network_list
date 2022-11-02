@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get: ^4.6.5
+  dio: ^4.0.6
 
 dev_dependencies:
   flutter_test:
@@ -63,20 +64,20 @@ flutter:
   assets:
     - assets/images/
   fonts:
-      - family: Roboto
-        fonts:
-          - asset: fonts/roboto/Roboto-Thin.ttf
-            weight: 200
-          - asset: fonts/roboto/Roboto-Light.ttf
-            weight: 200
-          - asset: fonts/roboto/Roboto-Regular.ttf
-            weight: 200
-          - asset: fonts/roboto/Roboto-Medium.ttf
-            weight: 300
-          - asset: fonts/roboto/Roboto-Bold.ttf
-            weight: 600
-          - asset: fonts/roboto/Roboto-Italic.ttf
-            style: italic
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Thin.ttf
+          weight: 200
+        - asset: fonts/roboto/Roboto-Light.ttf
+          weight: 200
+        - asset: fonts/roboto/Roboto-Regular.ttf
+          weight: 200
+        - asset: fonts/roboto/Roboto-Medium.ttf
+          weight: 300
+        - asset: fonts/roboto/Roboto-Bold.ttf
+          weight: 600
+        - asset: fonts/roboto/Roboto-Italic.ttf
+          style: italic
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
