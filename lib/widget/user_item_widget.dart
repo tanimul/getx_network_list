@@ -32,8 +32,7 @@ class UserItemWidget extends StatelessWidget {
                       child: CircleAvatar(
                         backgroundColor: Colors.white,
                         radius: 60,
-                        backgroundImage: users?.image!.isEmpty == true ||
-                                users?.image == null
+                        backgroundImage: users?.image!.isEmpty == true
                             ? const AssetImage('assets/images/placeholder.jpg')
                             : Image.network(
                                 users!.image!,

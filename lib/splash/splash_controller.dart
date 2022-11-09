@@ -16,7 +16,7 @@ class SplashController extends GetxController {
     debugPrint("setTimer");
     Timer(
       const Duration(milliseconds: 3000),
-      () => Get.offAll(const UserView()),
+      () => Get.offAll(UserView()),
     );
   }
 }

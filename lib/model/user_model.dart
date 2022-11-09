@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 class UserModel {
   List<Users>? users;
   int? total;
@@ -103,7 +105,7 @@ class Users {
     image = json['image'];
     bloodGroup = json['bloodGroup'];
     height = json['height'];
-    weight = json['weight'];
+    weight = json['weight'].toDouble();
     eyeColor = json['eyeColor'];
     hair = json['hair'] != null ? Hair.fromJson(json['hair']) : null;
     domain = json['domain'];
